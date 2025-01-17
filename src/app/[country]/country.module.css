@@ -1,0 +1,51 @@
+.page {
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 80px 10%;
+  gap: 64px;
+  font-family: var(--font-geist-sans);
+  text-align: center;
+
+  a {
+    &:hover {
+      color: #387dcc;
+    }
+  }
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+  h1 {
+    margin: 1rem auto;
+  };
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.flag {
+  max-width: 750px;
+  border-radius: 8px;
+}
+
+.borderCountries {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
